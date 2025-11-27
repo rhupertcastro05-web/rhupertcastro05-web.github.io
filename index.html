@@ -1,9 +1,176 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Favorite Food</title>
-    </head>
-    <body style="background-image: url('Images/FavFood.jpg'); background-size: cover;">
-        <h1 style="font-family:Arial; color: White;">My Favorite Food</h1>
-    </body>
+  <head>
+    <title>My Favorite Food</title>
+    <style>
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.Ingredients {
+  width: 45%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.Process {
+  width: 45%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.code-block { 
+  background-color: Beige;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  overflow: auto;
+  border-radius: 15px;
+  margin: 2%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .Ingredients, .Process {
+    width: 100%;
+    padding: 0;
+  }
+  
+}
+</style>
+  </head>
+  <body style="background-image: url('Images/FavFood.jpg'); background-size: cover;">
+    <div class="code-block">
+    <center><h1 style="font-family:Arial; color:Black;">My Favorite Food</h1></center>
+    </div>
+    <hr size="10" color="Beige">
+    <div class="code-block">
+      <center><h2>Sinigang</h2>
+      <img src="Images/Sinigang.jpg" width="350" height="350"></center>
+    </div>
+    <div class="code-block">
+      <h3>History of Sinigang:</h3>
+      <p><b>The Name, Sinigang:</b>
+Sinigang comes from the verb “<em>sigang</em>” meaning “<em>to stew</em>”,therefore, sinigang means “<em><strong>stewed</strong></em>”.
+
+The stew, or soup really as it’s a lighter broth, simmers a protein in a sour broth with vegetables. The sourness comes from sour fruits, typically tamarind and never vinegar.
+
+While this is a soup, it is not like a western soup course as an appetizer. Rather, it is considered a main dish as it is cooked in abundance for a family or gathering.
+
+And much like other soups cooked in hot and humid Southeast Asia, sinigang’s sourness and heat help refresh and cool one down during even the hottest months of the year.
+
+ 
+<b>The Ingredients:</b>
+The dish starts with a simmering of tomatoes and onions followed by the addition of a star protein – meat would include pork, beef, or chicken and seafood would feature shrimps and/or a local white fish or even salmon bellies.
+
+The acidity is then added typically tamarind, but many regional recipes might opt to add kamias, green mangoes, calamansi, santon, or guava.
+
+To finish, vegetables complete the dish such as okra, taro, radish, kangkong, sitaw, eggplant, mustard greens, bok choy, and local long green chili peppers.
+
+Some recipes round out the broth with miso, and many love to eat the meal with fish sauce as a condiment.
+
+ 
+<b>Sinigang History and Origins:</b>
+Sinigang is one of the country’s oldest dishes as it has indigenous origins and existed in the Philippines long before any colonizers set foot in the country.
+
+There are no written records or detailed origins, but one can assume it was truly created in the country or from nearby Southeast Asian neighbors as sour soups also prevail in Malaysia, Indonesia, Vietnam, and Thailand.
+
+ 
+<b>The Unofficial National Dish:</b>
+While the world and many Filipinos themselves may think of adobo, lumpiang shanghai, or even lechon or crispy pata as national dishes, sinigang can also rightly be considered a national dish as it is truly a locally loved meal.
+
+Sinigang is for everyday meals or a splurge for special occasions featuring premium protein. It can be adjusted for preferences, budgets, and seasonality when it comes to the addition of protein and vegetables. Mostly, it is the ultimate comfort as it provides warmth from the heat and brightens from the sour.
+
+ </p>
+    </div>
+  <div class="container">
+  <div class="code-block Ingredients">
+      <h2>Ingredients</h2>
+        <ul>
+            <li>Main Ingredient
+                <ul>
+                    <li>Pork/Beef/Shirmp/Fish/Chicken</li>
+                    <li>Tamarind</li>
+                </ul>
+            </li>
+            <li>Vegetables
+                <ul>
+                  <li>Okra</li>
+                  <li>Taro (Gabi) (to thicken the broth)</li>
+                  <li>Radish</li>
+                  <li>Water Spinach (Kangkong)</li>
+                  <li>String Beans (Sitaw)</li>
+                  <li>Eggplant (Talong)</li>
+                </ul>
+            </li>
+            <li>Aromatics
+                <ul>
+                  <li>Onion</li>
+                  <li>Tomatoes</li>
+                  <li>Garlic</li>
+                </ul>
+            </li>
+            <li>Seasonings
+                <ul>
+                  <li>Fish Sauce (Patis)</li>
+                  <li>Salt</li>
+                  <li>Long Green Chili Peppers (Siling haba) (For a bit of spice)</li>
+                </ul>
+            </li>
+        </ul>
+  </div>
+  <div class="code-block Process">
+        <h2>The Process of Making Sinigang</h2>
+        <ol>
+           <li><h4>Sauté Aromatics:</h4></li>
+             <ul>
+               <li>In a large pot, Sauté garlic and onions until fragrants.</li>
+               <li>Add tomatoes and cook until they soften,,</li>
+             </ul>
+             <li><h4>Add Protein:</h4></li>
+             <ul>
+               <li>Add your choice of protein (Pork, Beef, Shrimp, Fish, or Chicken) and cook until it changes color.</li>
+               <li>For pork, some recipes recommend searing the pork belly before adding the water to develop a deeper flavor.</li>
+             </ul>
+             <li><h4>Pour in Water:</h4></li>
+             <ul>
+               <li>Fill the pot with enough water to cover the Ingredients.</li>
+               <li>Bring to a boil and then reduce to a simmer.</li>
+             </ul>
+             <li><h4>Introduce the Souring Agent:</h4></li>
+             <ul>
+               <li>Add tamarind pulp or powder to create the signature sour taste.</li>
+               <li>If using tamarind pulp, squeeze it into the pot and let it dissolve. If using powder, add to taste.</li>
+               <li>Alternatively, use a sinigang mix for convenience.</li>
+             </ul>
+             <li><h4>Add Vegetables:</h4></li>
+             <ul>
+               <li>Toss in vegetables like radish, taro, eggplant, okra, string beans, and water spinach (kangkong),,.</li>
+               <li>Add vegetables that require longer cooking times (like taro and radish) earlier, and leafy greens (like kangkong or spinach) towards the end.</li>
+             </ul>
+             <li><h4>Simmer:</h4></li>
+             <ul>
+               <li>Let the soup simmer until the meat and vegetables are tender,.</li>
+               <li>This typically takes about 30-45 minutes for the meat to become tender.</li>
+             </ul>
+             <li><h4>Season to Perfection:</h4></li>
+             <ul>
+               <li>Season with Fish Sauce (Patis) and salt according to your preference,,.</li>
+               <li>Add chilli peppers if you want a bit of heat,.</li>
+             </ul>
+             <li><h4>Serve Hot:</h4></li>
+             <ul>
+               <li>Ladle the fragrant, tangy soup into bowls and serve it piping hot with freshly cooked rice,,.</li>
+             </ul>
+        </ol>
+  </div>
+</div>
+  </body>
 </html>
